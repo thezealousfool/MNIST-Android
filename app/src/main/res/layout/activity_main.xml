@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:alignmentMode="alignBounds"
+        app:columnCount="5"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/mnist0"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist0" />
+
+        <ImageView
+            android:id="@+id/mnist1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist1" />
+
+        <ImageView
+            android:id="@+id/mnist2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist2" />
+
+        <ImageView
+            android:id="@+id/mnist3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist3" />
+
+        <ImageView
+            android:id="@+id/mnist4"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist4" />
+
+        <ImageView
+            android:id="@+id/mnist5"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist5" />
+
+        <ImageView
+            android:id="@+id/mnist6"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist6" />
+
+        <ImageView
+            android:id="@+id/mnist7"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist7" />
+
+        <ImageView
+            android:id="@+id/mnist8"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist8" />
+
+        <ImageView
+            android:id="@+id/mnist9"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist9" />
+
+        <ImageView
+            android:id="@+id/mnist10"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist10" />
+
+        <ImageView
+            android:id="@+id/mnist11"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist11" />
+
+        <ImageView
+            android:id="@+id/mnist12"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist12" />
+
+        <ImageView
+            android:id="@+id/mnist13"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist13" />
+
+        <ImageView
+            android:id="@+id/mnist14"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist14" />
+
+        <ImageView
+            android:id="@+id/mnist15"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist15" />
+
+        <ImageView
+            android:id="@+id/mnist16"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist16" />
+
+        <ImageView
+            android:id="@+id/mnist17"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist17" />
+
+        <ImageView
+            android:id="@+id/mnist18"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist18" />
+
+        <ImageView
+            android:id="@+id/mnist19"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:onClick="imgClicked"
+            app:srcCompat="@drawable/mnist19" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Time"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selImg" />
+
+    <TextView
+        android:id="@+id/probText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Probability"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/selImg" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="4 ms"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeText" />
+
+    <TextView
+        android:id="@+id/prob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="1.000000"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/probText" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="time,prob" />
+
+    <TextView
+        android:id="@+id/predText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Prediction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/barrier" />
+
+    <TextView
+        android:id="@+id/pred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/predText" />
+
+    <ImageView
+        android:id="@+id/selImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:srcCompat="@drawable/mnist17" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
